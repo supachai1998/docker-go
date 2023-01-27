@@ -1,0 +1,126 @@
+definitions:
+  structs.Users:
+    properties:
+      accept_term:
+        example: true
+        type: boolean
+      address:
+        example: address
+        type: string
+      email:
+        example: ex@hotmail.com
+        type: string
+      first_name:
+        example: supachai
+        type: string
+      last_name:
+        example: last name
+        type: string
+      phone_number:
+        example: "0899999999"
+        maxLength: 10
+        type: string
+      postcode:
+        example: "10260"
+        type: string
+      province:
+        example: bankok
+        type: string
+      roles_id:
+        example: 2
+        type: integer
+      user_id:
+        example: U1234567890
+        type: string
+    required:
+    - email
+    type: object
+info:
+  contact: {}
+paths:
+  /api/v1/login/register:
+    post:
+      consumes:
+      - application/json
+      description: Create User
+      parameters:
+      - description: Email
+        in: formData
+        name: email
+        required: true
+        type: string
+      - description: Password
+        in: formData
+        name: password
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/structs.Users'
+        "400":
+          description: Invalid signature
+          schema:
+            type: string
+        "500":
+          description: Internal error
+          schema:
+            type: string
+      summary: Create User
+      tags:
+      - User
+  /api/v1/users:
+    get:
+      consumes:
+      - application/json
+      description: Get All Users
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/structs.Users'
+        "400":
+          description: Invalid signature
+          schema:
+            type: string
+        "500":
+          description: Internal error
+          schema:
+            type: string
+      summary: Get All Users
+      tags:
+      - User
+  /line/webhook:
+    post:
+      consumes:
+      - application/json
+      description: Line Web Hook
+      parameters:
+      - description: Authorization
+        in: header
+        name: Authorization
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ok
+          schema:
+            type: string
+        "400":
+          description: Invalid signature
+          schema:
+            type: string
+        "500":
+          description: Internal error
+          schema:
+            type: string
+      summary: Line Web Hook
+      tags:
+      - Line
+swagger: "2.0"

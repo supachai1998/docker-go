@@ -1,0 +1,65 @@
+2023/01/13 07:50:26 [error] :  code=403, message=Forbidden
+2023-01-13T07:50:26.9775278+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/, status=403, latency=0s, error=
+2023-01-13T07:50:32.1010054+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/docs, status=200, latency=3.263ms, error=
+2023-01-13T07:51:30.2227842+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/line/liff, status=200, latency=541.2µs, error=
+2023-01-13T07:51:30.4122262+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/favicon.ico, status=404, latency=0s, error=code=404, message=Not Found
+2023-01-13T07:53:58.5782838+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/line/liff, status=200, latency=0s, error=
+2023-01-13T07:54:01.7787859+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/line/liff, status=200, latency=152.6µs, error=
+2023-01-13T07:54:04.0961559+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::POST/api/v1/line/login, status=200, latency=319.177ms, error=
+2023-01-13T07:54:07.1937552+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/line/liff, status=200, latency=55.7µs, error=
+2023/01/13 07:54:08 [error] :  code=400, message=Bad Request
+2023-01-13T07:54:08.7782137+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/line/undefined, status=400, latency=0s, error=
+2023-01-13T07:54:09.0057014+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::POST/api/v1/line/login, status=200, latency=234.0484ms, error=
+2023-01-13T07:54:59.8579297+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/line/liff, status=200, latency=0s, error=
+2023-01-13T07:55:00.6038381+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::POST/api/v1/line/login, status=200, latency=1.0839ms, error=
+2023/01/13 07:55:25 [error] :  record not found
+2023-01-13T07:55:25.0083637+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/me/campaigns, status=400, latency=1.8027ms, error=
+2023-01-13T07:55:57.6889756+07:00 127.0.0.1::POST/api/v1/me/campaign/1, status=201, latency=6.3887ms, error=
+2023/01/13 07:55:58 [error] :  ERROR: duplicate key value violates unique constraint "idx_users_id_campaigns_id" (SQLSTATE 23505)
+2023-01-13T07:55:58.4178012+07:00 127.0.0.1::POST/api/v1/me/campaign/1, status=409, latency=11.4878ms, error=
+2023-01-13T07:56:20.5533492+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/line/liff, status=200, latency=0s, error=
+2023-01-13T07:56:21.2763614+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::POST/api/v1/line/login, status=200, latency=584.4µs, error=
+2023-01-13T07:58:37.8889926+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/me/campaigns, status=200, latency=2.6037ms, error=
+2023-01-13T07:59:31.9236406+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::POST/api/v1/campaigns, status=200, latency=13.9427ms, error=
+2023-01-13T08:00:02.8871923+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/campaigns/3, status=200, latency=1.8282ms, error=
+2023-01-13T08:00:42.2848116+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::POST/api/v1/me/campaign/3, status=201, latency=2.5248ms, error=
+2023-01-13T08:01:11.7519862+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/me/campaigns, status=200, latency=2.829ms, error=
+2023-01-13T08:01:21.6852477+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/me/campaigns, status=200, latency=6.4421ms, error=
+2023-01-13T08:01:26.237792+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/me/campaigns, status=200, latency=2.3361ms, error=
+2023-01-13T08:01:29.4130106+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/me/campaigns, status=200, latency=2.4989ms, error=
+2023-01-13T08:01:45.1829511+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/campaigns_users/3, status=200, latency=8.9195ms, error=
+2023-01-13T08:01:57.0693768+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/line/liff, status=200, latency=0s, error=
+2023-01-13T08:01:58.0473337+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::POST/api/v1/line/login, status=200, latency=702.1µs, error=
+2023/01/13 08:01:58 [error] :  code=400, message=Bad Request
+2023-01-13T08:01:58.0495513+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/line/undefined, status=400, latency=536.7µs, error=
+2023-01-13T08:02:28.4830374+07:00 127.0.0.1::POST/api/v1/me/campaign/3, status=201, latency=3.3194ms, error=
+2023-01-13T08:02:36.9974329+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/campaigns_users/3, status=200, latency=7.2003ms, error=
+2023-01-13T08:02:50.7453828+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/campaigns_users/3, status=200, latency=10.4952ms, error=
+2023-01-13T08:03:41.1449043+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/campaigns_users/3, status=200, latency=4.8682ms, error=
+2023-01-13T08:03:47.2780899+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/campaigns_users/3, status=200, latency=4.4123ms, error=
+2023-01-13T08:04:10.0957988+07:00 127.0.0.1::PUT/api/v1/me/campaign/3, status=200, latency=9.1932ms, error=
+2023-01-13T08:04:21.8547335+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/campaigns_users/3, status=200, latency=1.0512ms, error=
+2023-01-13T08:04:29.8760401+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/campaigns_users/3, status=200, latency=2.4109ms, error=
+2023/01/13 08:05:08 [error] :  ไม่พบผู้โชคดี
+2023-01-13T08:05:08.6852797+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::POST/api/v1/campaign/3/boardcast, status=404, latency=2.5495ms, error=
+2023-01-13T08:05:23.9152099+07:00 127.0.0.1::PUT/api/v1/campaign/3/coupon, status=200, latency=36.4393ms, error=
+2023-01-13T08:05:45.207427+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/campaigns_users/3, status=200, latency=1.8147ms, error=
+2023-01-13T08:05:52.9226377+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/campaigns_users/3, status=200, latency=7.4863ms, error=
+2023-01-13T08:06:20.1509312+07:00 127.0.0.1::POST/api/v1/users, status=201, latency=81.2319ms, error=
+2023-01-13T08:06:25.1783785+07:00 127.0.0.1::POST/api/v1/user/login, status=200, latency=60.458ms, error=
+2023-01-13T08:06:40.5131554+07:00 127.0.0.1::POST/api/v1/me/campaign/3, status=201, latency=3.3961ms, error=
+2023-01-13T08:06:45.5161974+07:00 127.0.0.1::GET/api/v1/me/campaigns, status=200, latency=4.432ms, error=
+2023-01-13T08:06:55.3323679+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/campaigns_users/3, status=200, latency=3.6443ms, error=
+2023-01-13T08:07:05.3101704+07:00 127.0.0.1::PUT/api/v1/me/info, status=200, latency=2.8191ms, error=
+2023-01-13T08:07:10.74921+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/campaigns_users/3, status=200, latency=6.9597ms, error=
+2023-01-13T08:07:31.7242089+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/api/v1/campaigns_users/3, status=200, latency=5.2884ms, error=
+2023-01-13T08:07:46.6854965+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::POST/api/v1/campaign/3/boardcast, status=200, latency=224.0718ms, error=
+2023-01-13T09:00:31.4254304+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/docs, status=200, latency=2.1651ms, error=
+2023-01-13T09:02:48.0553504+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/docs, status=200, latency=1.683ms, error=
+2023-01-13T09:03:22.0838799+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::PUT/api/v1/campaign/3/coupon, status=200, latency=1.2488769s, error=
+2023-01-13T09:04:03.7868622+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::PUT/api/v1/campaign/3/coupon, status=200, latency=5.4072ms, error=
+2023-01-13T09:04:30.0327911+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::PUT/api/v1/campaign/3/reset_lucky, status=200, latency=3.2997ms, error=
+2023-01-13T09:05:06.2189482+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::PUT/api/v1/set_lucky/6, status=200, latency=4.0365ms, error=
+2023-01-13T09:07:34.2930219+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/docs, status=200, latency=2.1376ms, error=
+2023-01-13T09:08:00.5451286+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::GET/docs, status=200, latency=2.1029ms, error=
+2023-01-13T09:08:25.1333467+07:00 2001:fb1:ab:d11e:3dd8:a591:24aa:812d::PUT/api/v1/campaign/3/coupon, status=200, latency=1.0725034s, error=

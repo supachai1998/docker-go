@@ -1,0 +1,378 @@
+2023-01-27T07:31:49.704561025+07:00 ::1::POST/api/v1/users, status=201, latency=87.000489ms, error=
+2023-01-27T07:31:54.974390119+07:00 ::1::POST/api/v1/user/login, status=200, latency=89.16554ms, error=
+2023-01-27T07:32:08.965476806+07:00 ::1::GET/api/v1/me/info, status=200, latency=718.387663ms, error=
+2023-01-27T07:32:10.320421314+07:00 ::1::GET/api/v1/me/info, status=200, latency=14.110151ms, error=
+2023-01-27T07:32:16.744097994+07:00 ::1::PUT/api/v1/me/281017/role, status=200, latency=142.078387ms, error=
+2023-01-27T07:32:19.696938326+07:00 ::1::PUT/api/v1/me/1/role, status=200, latency=119.401614ms, error=
+2023-01-27T07:32:22.485000594+07:00 ::1::GET/api/v1/me/info, status=200, latency=11.455596ms, error=
+2023/01/27 07:32:27 [error] :  record not found
+2023-01-27T07:32:27.630468732+07:00 ::1::GET/api/v1/campaigns, status=400, latency=10.93042ms, error=
+2023/01/27 07:32:28 [error] :  record not found
+2023-01-27T07:32:28.886962422+07:00 ::1::GET/api/v1/campaigns, status=400, latency=12.536261ms, error=
+2023-01-27T07:33:00.156039407+07:00 ::1::PUT/api/v1/me/info, status=200, latency=310.427205ms, error=
+2023-01-27T07:33:26.608514314+07:00 ::1::GET/api/v1/me/info, status=200, latency=290.295097ms, error=
+2023/01/27 07:35:48 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T07:35:48.756987878+07:00 ::1::GET/api/v1/campaigns, status=500, latency=647.476167ms, error=
+2023/01/27 07:36:21 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T07:36:21.027184011+07:00 ::1::GET/api/v1/campaigns, status=500, latency=531.818962ms, error=
+2023/01/27 07:36:51 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T07:36:51.432383507+07:00 ::1::GET/api/v1/campaigns, status=500, latency=299.611203ms, error=
+2023/01/27 07:37:49 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T07:37:49.1686684+07:00 ::1::GET/api/v1/me/info, status=500, latency=315.066726ms, error=
+2023-01-27T07:38:11.333442162+07:00 ::1::POST/api/v1/users, status=201, latency=98.292392ms, error=
+2023-01-27T07:38:14.693169214+07:00 ::1::POST/api/v1/user/login, status=200, latency=97.908216ms, error=
+2023/01/27 07:38:24 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T07:38:24.156508188+07:00 ::1::GET/api/v1/me/info, status=500, latency=267.821372ms, error=
+2023-01-27T07:38:43.247240637+07:00 ::1::GET/api/v1/me/info, status=200, latency=445.831998ms, error=
+2023-01-27T07:38:48.266126311+07:00 ::1::PUT/api/v1/me/1/role, status=200, latency=131.996223ms, error=
+2023/01/27 07:38:56 [error] :  record not found
+2023-01-27T07:38:56.455182247+07:00 ::1::GET/api/v1/campaigns, status=400, latency=10.707955ms, error=
+2023-01-27T07:39:23.76573159+07:00 ::1::PUT/api/v1/me/info, status=200, latency=338.566804ms, error=
+2023/01/27 07:39:46 [error] :  record not found
+2023-01-27T07:39:46.959090051+07:00 ::1::GET/api/v1/campaigns, status=400, latency=12.955756ms, error=
+2023/01/27 07:39:49 [error] :  record not found
+2023-01-27T07:39:49.459127473+07:00 ::1::GET/api/v1/campaigns, status=400, latency=9.399271ms, error=
+2023-01-27T07:39:51.159883629+07:00 ::1::GET/api/v1/me/info, status=200, latency=10.823866ms, error=
+2023-01-27T07:45:07.795750696+07:00 ::1::GET/api/v1/me/info, status=200, latency=518.764695ms, error=
+2023-01-27T07:45:15.991572847+07:00 ::1::GET/api/v1/campaigns, status=200, latency=11.701903ms, error=
+2023/01/27 07:45:21 [error] :  record not found
+2023-01-27T07:45:21.671568979+07:00 ::1::GET/api/v1/me/campaigns, status=400, latency=17.731785ms, error=
+2023-01-27T07:45:31.660252641+07:00 ::1::GET/api/v1/me/info, status=200, latency=11.701303ms, error=
+2023-01-27T07:53:16.974254571+07:00 ::1::GET/api/v1/campaigns, status=200, latency=9.429655ms, error=
+2023-01-27T07:53:20.900413196+07:00 ::1::POST/api/v1/me/campaign/1, status=201, latency=30.120472ms, error=
+2023-01-27T08:00:16.906289127+07:00 ::1::GET/api/v1/me/campaigns, status=200, latency=29.125239ms, error=
+2023-01-27T08:01:25.88053945+07:00 ::1::GET/api/v1/me/campaigns, status=200, latency=32.486337ms, error=
+2023-01-27T08:02:00.897469331+07:00 ::1::GET/api/v1/me/campaigns, status=200, latency=135.196272ms, error=
+2023-01-27T08:02:10.207712276+07:00 ::1::GET/api/v1/me/campaigns, status=200, latency=205.08182ms, error=
+2023-01-27T08:02:43.25157198+07:00 ::1::GET/api/v1/me/campaigns, status=200, latency=479.206081ms, error=
+2023-01-27T08:03:26.048186726+07:00 ::1::GET/api/v1/me/campaigns, status=200, latency=1.112665375s, error=
+2023-01-27T08:04:23.176458017+07:00 ::1::GET/api/v1/campaigns, status=200, latency=16.951868ms, error=
+2023-01-27T08:05:03.973020504+07:00 ::1::GET/api/v1/campaigns, status=200, latency=16.239596ms, error=
+2023-01-27T08:05:22.306748091+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=12.894132ms, error=
+2023-01-27T08:05:36.287695772+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=316.583542ms, error=
+2023-01-27T08:06:30.894771457+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=332.668425ms, error=
+2023-01-27T08:06:35.804684719+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=14.794659ms, error=
+2023-01-27T08:08:27.120778104+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=492.03087ms, error=
+2023-01-27T08:08:29.406823687+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=10.922175ms, error=
+2023-01-27T08:08:30.590208024+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=8.132489ms, error=
+2023-01-27T08:08:36.665701642+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=8.862523ms, error=
+2023-01-27T08:10:07.688349257+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=602.121565ms, error=
+2023-01-27T08:10:10.373485872+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=96.598072ms, error=
+2023/01/27 08:10:43 [error] :  record not found
+2023-01-27T08:10:43.098630685+07:00 ::1::GET/api/v1/campaigns/1, status=400, latency=328.919419ms, error=
+2023/01/27 08:11:53 [error] :  record not found
+2023-01-27T08:11:53.904980607+07:00 ::1::GET/api/v1/campaigns/1, status=400, latency=1.009745867s, error=
+2023-01-27T08:13:08.282477789+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=542.143125ms, error=
+2023-01-27T08:15:32.432755004+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=602.146954ms, error=
+2023-01-27T08:15:35.37201894+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=16.325368ms, error=
+2023-01-27T08:15:42.400724292+07:00 ::1::PUT/api/v1/me/1/role, status=200, latency=151.421686ms, error=
+2023/01/27 08:15:44 [error] :  record not found
+2023-01-27T08:15:44.682218562+07:00 ::1::GET/api/v1/campaigns, status=400, latency=77.695762ms, error=
+2023/01/27 08:16:04 [error] :  record not found
+2023-01-27T08:16:04.355198966+07:00 ::1::GET/api/v1/campaigns, status=400, latency=70.924579ms, error=
+2023/01/27 08:16:54 [error] :  record not found
+2023-01-27T08:16:54.959484978+07:00 ::1::GET/api/v1/campaigns, status=400, latency=96.622745ms, error=
+2023/01/27 08:17:36 [error] :  record not found
+2023-01-27T08:17:36.34119362+07:00 ::1::GET/api/v1/campaigns, status=400, latency=276.772487ms, error=
+2023/01/27 08:17:54 [error] :  invalid user
+2023-01-27T08:17:54.034300941+07:00 ::1::GET/api/v1/campaigns, status=500, latency=602.225705ms, error=
+2023/01/27 08:18:28 [error] :  invalid user
+2023-01-27T08:18:28.081274499+07:00 ::1::GET/api/v1/campaigns, status=500, latency=438.333429ms, error=
+2023/01/27 08:19:45 [error] :  invalid user
+2023-01-27T08:19:45.592081699+07:00 ::1::GET/api/v1/me/info, status=500, latency=491.120552ms, error=
+2023/01/27 08:21:17 [error] :  invalid user
+2023-01-27T08:21:17.880418855+07:00 ::1::GET/api/v1/me/info, status=500, latency=706.434786ms, error=
+2023/01/27 08:21:42 [error] :  invalid user
+2023-01-27T08:21:42.16300543+07:00 ::1::GET/api/v1/me/info, status=500, latency=574.42901ms, error=
+2023/01/27 08:25:06 [error] :  ERROR: column "token" does not exist (SQLSTATE 42703)
+2023-01-27T08:25:06.243571067+07:00 ::1::POST/api/v1/user/login, status=400, latency=9.441545ms, error=
+2023-01-27T08:26:43.070428435+07:00 ::1::POST/api/v1/user/login, status=200, latency=144.335907ms, error=
+2023-01-27T08:26:58.24933424+07:00 ::1::GET/api/v1/me/info, status=200, latency=603.959325ms, error=
+2023-01-27T08:29:30.539281453+07:00 ::1::GET/api/v1/me/info, status=200, latency=2.875571344s, error=
+2023/01/27 08:29:50 [error] :  record not found
+2023-01-27T08:29:50.267048114+07:00 ::1::POST/api/v1/user/login, status=400, latency=5.145342ms, error=
+2023-01-27T08:30:52.56252249+07:00 ::1::POST/api/v1/user/login, status=200, latency=162.679093ms, error=
+2023-01-27T08:31:21.523537151+07:00 ::1::GET/api/v1/me/info, status=200, latency=775.950626ms, error=
+2023/01/27 08:32:38 [error] :  IP [::1] try login >> supachai & invalid username or email
+2023-01-27T08:32:38.604230862+07:00 ::1::POST/api/v1/user/login, status=401, latency=11.742506ms, error=
+2023-01-27T08:32:52.893764269+07:00 ::1::POST/api/v1/users, status=201, latency=86.944991ms, error=
+2023-01-27T08:32:57.197005578+07:00 ::1::POST/api/v1/user/login, status=200, latency=156.045766ms, error=
+2023/01/27 08:33:00 [error] :  IP [::1] try login >> supachai & invalid password
+2023-01-27T08:33:00.532367375+07:00 ::1::POST/api/v1/user/login, status=401, latency=75.213543ms, error=
+2023/01/27 08:33:04 [error] :  IP [::1] try login >> supachai & invalid password
+2023-01-27T08:33:04.478725162+07:00 ::1::POST/api/v1/user/login, status=401, latency=74.352561ms, error=
+2023-01-27T08:33:06.017935586+07:00 ::1::POST/api/v1/user/login, status=200, latency=152.973181ms, error=
+2023-01-27T08:33:16.805109526+07:00 ::1::POST/api/v1/user/login, status=200, latency=89.91425ms, error=
+2023-01-27T08:34:14.25320344+07:00 ::1::POST/api/v1/user/login, status=200, latency=102.431357ms, error=
+2023-01-27T08:42:01.747078226+07:00 ::1::POST/api/v1/user/login, status=200, latency=104.862098ms, error=
+2023/01/27 08:42:35 [error] :  record not found
+2023-01-27T08:42:35.315979447+07:00 ::1::GET/api/v1/me/info, status=400, latency=495.871591ms, error=
+2023/01/27 08:44:32 [error] :  record not found
+2023-01-27T08:44:32.412978738+07:00 ::1::GET/api/v1/me/info, status=400, latency=917.47215ms, error=
+2023/01/27 08:45:35 [error] :  record not found
+2023-01-27T08:45:35.651959297+07:00 ::1::GET/api/v1/me/info, status=400, latency=1.245260358s, error=
+2023/01/27 08:45:53 [error] :  record not found
+2023-01-27T08:45:53.567395184+07:00 ::1::GET/api/v1/me/info, status=400, latency=193.783341ms, error=
+2023/01/27 08:46:13 [error] :  record not found
+2023-01-27T08:46:13.753947624+07:00 ::1::GET/api/v1/me/info, status=400, latency=420.788932ms, error=
+2023/01/27 08:46:31 [error] :  unsupported data type: <nil>
+2023-01-27T08:46:31.876862397+07:00 ::1::GET/api/v1/me/info, status=500, latency=635.135616ms, error=
+2023/01/27 08:46:50 [error] :  unsupported data type: <nil>
+2023-01-27T08:46:50.904685265+07:00 ::1::GET/api/v1/me/info, status=500, latency=449.864439ms, error=
+2023/01/27 08:47:02 [error] :  unsupported data type: <nil>
+2023-01-27T08:47:02.746763184+07:00 ::1::GET/api/v1/me/info, status=500, latency=337.126226ms, error=
+2023/01/27 08:47:27 [error] :  record not found
+2023-01-27T08:47:27.479624124+07:00 ::1::GET/api/v1/me/info, status=400, latency=468.85651ms, error=
+2023/01/27 08:47:42 [error] :  record not found
+2023-01-27T08:47:42.70932231+07:00 ::1::GET/api/v1/me/info, status=400, latency=615.678989ms, error=
+2023/01/27 08:49:08 [error] :  record not found
+2023-01-27T08:49:08.322394194+07:00 ::1::GET/api/v1/me/info, status=400, latency=452.552662ms, error=
+2023/01/27 08:51:30 [error] :  record not found
+2023-01-27T08:51:30.484568805+07:00 ::1::GET/api/v1/me/info, status=400, latency=250.783034ms, error=
+2023/01/27 08:51:41 [error] :  record not found
+2023-01-27T08:51:41.226235684+07:00 ::1::GET/api/v1/me/info, status=400, latency=470.900897ms, error=
+2023-01-27T08:52:02.491919084+07:00 ::1::POST/api/v1/user/login, status=200, latency=87.157677ms, error=
+2023-01-27T08:52:14.858138262+07:00 ::1::GET/api/v1/me/info, status=200, latency=187.900948ms, error=
+2023/01/27 08:53:44 [error] :  unsupported data type: 0xc0003ae7f0: Table not set, please set it like: db.Model(&user) or db.Table("users")
+2023-01-27T08:53:44.129453492+07:00 ::1::GET/api/v1/me/info, status=500, latency=562.107214ms, error=
+2023-01-27T08:54:10.102327172+07:00 ::1::POST/api/v1/user/login, status=200, latency=106.78077ms, error=
+2023/01/27 08:54:19 [error] :  unsupported data type: 0xc00050c8f0: Table not set, please set it like: db.Model(&user) or db.Table("users")
+2023-01-27T08:54:19.416763398+07:00 ::1::GET/api/v1/me/info, status=500, latency=430.230541ms, error=
+2023-01-27T08:54:38.48327091+07:00 ::1::GET/api/v1/me/info, status=200, latency=939.514016ms, error=
+2023-01-27T08:54:41.122884185+07:00 ::1::GET/api/v1/me/info, status=200, latency=21.98815ms, error=
+2023-01-27T08:54:42.483487949+07:00 ::1::GET/api/v1/me/info, status=200, latency=13.134026ms, error=
+2023-01-27T08:54:48.420240543+07:00 ::1::PUT/api/v1/me/1/role, status=200, latency=130.1826ms, error=
+2023-01-27T08:54:50.722169385+07:00 ::1::PUT/api/v1/me/1/role, status=200, latency=131.820416ms, error=
+2023-01-27T08:54:52.523410343+07:00 ::1::GET/api/v1/me/info, status=200, latency=30.394888ms, error=
+2023-01-27T08:55:03.016633504+07:00 ::1::PUT/api/v1/me/info, status=200, latency=224.255746ms, error=
+2023/01/27 08:55:12 [error] :  record not found
+2023-01-27T08:55:12.590927204+07:00 ::1::GET/api/v1/me/info, status=400, latency=381.468148ms, error=
+2023-01-27T08:55:31.081988983+07:00 ::1::GET/api/v1/me/info, status=200, latency=35.074024ms, error=
+2023-01-27T08:55:41.771033453+07:00 ::1::GET/api/v1/me/info, status=200, latency=18.091113ms, error=
+2023/01/27 08:59:06 [error] :  unsupported data type: 0xc0003044f0: Table not set, please set it like: db.Model(&user) or db.Table("users")
+2023-01-27T08:59:06.314106715+07:00 ::1::GET/api/v1/me/info, status=500, latency=376.908752ms, error=
+2023-01-27T09:04:09.05135139+07:00 ::1::POST/api/v1/user/login, status=200, latency=99.441643ms, error=
+2023-01-27T09:04:28.562794876+07:00 ::1::GET/api/v1/me/info, status=200, latency=411.417516ms, error=
+2023-01-27T09:04:42.206940285+07:00 ::1::GET/api/v1/me/info, status=200, latency=8.916313ms, error=
+2023/01/27 09:04:51 [error] :  record not found
+2023-01-27T09:04:51.723686835+07:00 ::1::GET/api/v1/campaigns, status=400, latency=16.209321ms, error=
+2023/01/27 09:04:55 [error] :  record not found
+2023-01-27T09:04:55.905334928+07:00 ::1::GET/api/v1/me/campaigns, status=400, latency=31.828622ms, error=
+2023-01-27T09:05:04.004656391+07:00 ::1::GET/api/v1/me/info, status=200, latency=12.847903ms, error=
+2023-01-27T09:05:14.923084387+07:00 ::1::PUT/api/v1/me/info, status=200, latency=172.839549ms, error=
+2023-01-27T09:05:27.286278606+07:00 ::1::GET/api/v1/me/info, status=200, latency=425.192893ms, error=
+2023-01-27T09:06:11.401865525+07:00 ::1::PUT/api/v1/me/1/role, status=200, latency=138.307069ms, error=
+2023/01/27 09:06:14 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T09:06:14.383612926+07:00 ::1::GET/api/v1/me/info, status=500, latency=12.257851ms, error=
+2023-01-27T09:06:32.778824056+07:00 ::1::GET/api/v1/me/info, status=500, latency=13.310777ms, error=
+2023-01-27T09:09:59.079648252+07:00 ::1::GET/api/v1/me/info, status=500, latency=406.179303ms, error=
+2023/01/27 09:11:11 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T09:11:11.87504775+07:00 ::1::GET/api/v1/me/info, status=500, latency=620.67572ms, error=
+2023/01/27 09:12:34 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T09:12:34.060402761+07:00 ::1::GET/api/v1/me/info, status=500, latency=297.261142ms, error=
+2023/01/27 09:13:06 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T09:13:06.16684127+07:00 ::1::GET/api/v1/me/info, status=500, latency=742.816009ms, error=
+2023/01/27 09:13:25 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T09:13:25.948026976+07:00 ::1::GET/api/v1/me/info, status=500, latency=224.18241ms, error=
+2023/01/27 09:14:20 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T09:14:20.671125456+07:00 ::1::GET/api/v1/me/info, status=500, latency=472.986811ms, error=
+2023/01/27 09:14:45 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T09:14:45.674092667+07:00 ::1::GET/api/v1/me/info, status=500, latency=488.585133ms, error=
+2023-01-27T09:15:27.76700498+07:00 ::1::GET/api/v1/me/info, status=500, latency=561.657828ms, error=
+2023/01/27 09:17:00 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T09:17:00.624044587+07:00 ::1::GET/api/v1/me/info, status=500, latency=448.865898ms, error=
+2023/01/27 09:17:21 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T09:17:21.853925868+07:00 ::1::GET/api/v1/me/info, status=500, latency=8.965756ms, error=
+2023/01/27 09:17:52 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T09:17:52.438396456+07:00 ::1::GET/api/v1/me/info, status=500, latency=430.945457ms, error=
+2023/01/27 09:18:04 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T09:18:04.517240318+07:00 ::1::GET/api/v1/me/info, status=500, latency=312.328084ms, error=
+2023/01/27 09:18:55 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T09:18:55.11384711+07:00 ::1::GET/api/v1/me/info, status=500, latency=404.007611ms, error=
+2023-01-27T09:20:27.282887047+07:00 ::1::GET/api/v1/me/info, status=200, latency=946.492939ms, error=
+2023-01-27T09:20:55.170522713+07:00 ::1::GET/api/v1/me/info, status=200, latency=8.621058ms, error=
+2023-01-27T09:21:05.04549268+07:00 ::1::PUT/api/v1/me/1/role, status=200, latency=140.2767ms, error=
+2023-01-27T09:21:06.937841211+07:00 ::1::GET/api/v1/me/info, status=200, latency=29.170721ms, error=
+2023-01-27T09:21:16.958925408+07:00 ::1::PUT/api/v1/me/info, status=200, latency=401.055847ms, error=
+2023-01-27T09:21:23.539211179+07:00 ::1::GET/api/v1/me/info, status=200, latency=391.586315ms, error=
+2023-01-27T09:21:30.83753035+07:00 ::1::PUT/api/v1/me/1/role, status=200, latency=133.443178ms, error=
+2023/01/27 09:21:33 [error] :  invalid value, should be pointer to struct or slice
+2023-01-27T09:21:33.297625469+07:00 ::1::GET/api/v1/me/info, status=500, latency=11.888504ms, error=
+2023/01/27 09:23:30 [error] :  code=401, message=Unauthorized
+2023-01-27T09:23:30.625311647+07:00 ::1::GET/api/v1/me/info, status=401, latency=667.528464ms, error=
+2023-01-27T09:23:41.821104415+07:00 ::1::GET/api/v1/me/info, status=200, latency=19.720837ms, error=
+2023-01-27T09:23:54.815541438+07:00 ::1::PUT/api/v1/me/1/role, status=200, latency=92.492934ms, error=
+2023-01-27T09:23:58.064676762+07:00 ::1::GET/api/v1/me/info, status=200, latency=29.613133ms, error=
+2023/01/27 09:24:36 [error] :  ERROR: duplicate key value violates unique constraint "idx_users_username" (SQLSTATE 23505)
+2023-01-27T09:24:36.848909947+07:00 ::1::POST/api/v1/users, status=409, latency=68.252401ms, error=
+2023-01-27T09:24:39.647195261+07:00 ::1::POST/api/v1/users, status=201, latency=75.531797ms, error=
+2023-01-27T09:24:47.827713027+07:00 ::1::POST/api/v1/user/login, status=200, latency=73.300832ms, error=
+2023-01-27T09:24:57.000990152+07:00 ::1::GET/api/v1/me/info, status=200, latency=419.933024ms, error=
+2023-01-27T09:25:03.931813225+07:00 ::1::POST/api/v1/me/campaign/1, status=201, latency=27.671278ms, error=
+2023/01/27 09:25:14 [error] :  record not found
+2023-01-27T09:25:14.128287119+07:00 ::1::GET/api/v1/me/campaigns, status=400, latency=38.283876ms, error=
+2023/01/27 09:25:18 [error] :  code=403, message=Forbidden
+2023-01-27T09:25:18.146647241+07:00 ::1::POST/api/v1/campaigns, status=403, latency=7.308342ms, error=
+2023-01-27T09:25:26.256623939+07:00 ::1::POST/api/v1/user/login, status=200, latency=85.81016ms, error=
+2023-01-27T09:26:26.784696627+07:00 ::1::POST/api/v1/users, status=201, latency=78.927629ms, error=
+2023-01-27T09:26:29.816440955+07:00 ::1::POST/api/v1/user/login, status=200, latency=65.701987ms, error=
+2023/01/27 09:26:33 [error] :  IP [::1] try login >> supachai1 & invalid username or email
+2023-01-27T09:26:33.565132598+07:00 ::1::POST/api/v1/user/login, status=401, latency=3.001533ms, error=
+2023-01-27T09:26:35.303915959+07:00 ::1::POST/api/v1/user/login, status=200, latency=76.608066ms, error=
+2023-01-27T09:28:57.115811466+07:00 ::1::GET/api/v1/me/info, status=200, latency=392.375133ms, error=
+2023-01-27T09:29:06.023608604+07:00 ::1::PUT/api/v1/me/info, status=200, latency=331.302131ms, error=
+2023-01-27T09:29:18.984543165+07:00 ::1::GET/api/v1/me/info, status=200, latency=23.115772ms, error=
+2023-01-27T09:29:24.408558595+07:00 ::1::PUT/api/v1/me/1/role, status=200, latency=87.426217ms, error=
+2023-01-27T09:29:27.481432278+07:00 ::1::GET/api/v1/me/info, status=200, latency=8.47765ms, error=
+2023-01-27T09:29:34.853715908+07:00 ::1::GET/api/v1/me/info, status=200, latency=6.267109ms, error=
+2023-01-27T09:29:42.109134921+07:00 ::1::GET/api/v1/me/info, status=200, latency=7.553604ms, error=
+2023-01-27T09:30:17.277653033+07:00 ::1::GET/api/v1/me/campaigns, status=200, latency=450.814478ms, error=
+2023-01-27T09:30:36.107647239+07:00 ::1::GET/api/v1/campaigns, status=200, latency=14.929258ms, error=
+2023-01-27T09:30:46.562415567+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=20.965248ms, error=
+2023-01-27T09:31:01.816496404+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=667.839793ms, error=
+2023-01-27T09:31:27.990412543+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=504.357923ms, error=
+2023-01-27T09:34:23.769174101+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=602.42517ms, error=
+2023-01-27T09:37:12.171017753+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=725.484554ms, error=
+2023-01-27T09:37:46.393632141+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=424.301269ms, error=
+2023-01-27T09:37:59.043388139+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=385.567209ms, error=
+2023-01-27T09:38:02.868414773+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=409.69343ms, error=
+2023-01-27T09:38:21.010226805+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=941.85397ms, error=
+2023-01-27T09:38:51.627825551+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=900.024869ms, error=
+2023-01-27T09:38:55.495290206+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=320.944192ms, error=
+2023-01-27T09:39:00.658100201+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=37.197754ms, error=
+2023-01-27T09:39:57.408602795+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=33.991778ms, error=
+2023-01-27T09:39:58.670206061+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=31.505795ms, error=
+2023-01-27T09:40:08.478979777+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=68.310975ms, error=
+2023-01-27T09:40:21.356394954+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=54.336303ms, error=
+2023-01-27T09:40:33.129139468+07:00 ::1::POST/api/v1/me/campaign/1, status=201, latency=16.259684ms, error=
+2023-01-27T09:40:37.207247399+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=48.898551ms, error=
+2023/01/27 09:40:49 [error] :  code=403, message=Forbidden
+2023-01-27T09:40:49.245274307+07:00 ::1::GET/api/v1/campaigns_users/1, status=403, latency=63.526451ms, error=
+2023-01-27T09:41:01.63396654+07:00 ::1::GET/api/v1/me/info, status=200, latency=92.017066ms, error=
+2023-01-27T09:41:05.455300776+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=301.61731ms, error=
+2023/01/27 09:41:08 [error] :  code=403, message=Forbidden
+2023-01-27T09:41:08.791733413+07:00 ::1::GET/api/v1/campaigns_users/1, status=403, latency=61.435809ms, error=
+2023/01/27 09:41:12 [error] :  code=403, message=Forbidden
+2023-01-27T09:41:12.554400157+07:00 ::1::GET/api/v1/campaigns_users/1, status=403, latency=57.45982ms, error=
+2023/01/27 09:41:13 [error] :  code=403, message=Forbidden
+2023-01-27T09:41:13.480827086+07:00 ::1::GET/api/v1/campaigns_users/1, status=403, latency=66.640738ms, error=
+2023/01/27 09:41:14 [error] :  code=403, message=Forbidden
+2023-01-27T09:41:14.132832879+07:00 ::1::GET/api/v1/campaigns_users/1, status=403, latency=53.575011ms, error=
+2023/01/27 09:41:14 [error] :  code=403, message=Forbidden
+2023-01-27T09:41:14.667056332+07:00 ::1::GET/api/v1/campaigns_users/1, status=403, latency=56.849733ms, error=
+2023/01/27 09:41:15 [error] :  code=403, message=Forbidden
+2023-01-27T09:41:15.235832578+07:00 ::1::GET/api/v1/campaigns_users/1, status=403, latency=92.742812ms, error=
+2023-01-27T09:41:27.32309813+07:00 ::1::GET/api/v1/me/info, status=200, latency=78.811407ms, error=
+2023-01-27T09:41:32.403252662+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=270.5552ms, error=
+2023/01/27 09:41:34 [error] :  code=403, message=Forbidden
+2023-01-27T09:41:34.597380786+07:00 ::1::GET/api/v1/campaigns_users/1, status=403, latency=61.337398ms, error=
+2023-01-27T09:43:27.575315676+07:00 ::1::GET/api/v1/campaigns_users/1, status=500, latency=1.527483ms, error=
+2023/01/27 09:43:39 [error] :  code=403, message=Forbidden
+2023-01-27T09:43:39.980011823+07:00 ::1::GET/api/v1/campaigns_users/1, status=403, latency=832.313281ms, error=
+2023/01/27 09:44:07 [error] :  code=403, message=Forbidden
+2023-01-27T09:44:07.848800438+07:00 ::1::GET/api/v1/campaigns_users/1, status=403, latency=316.623368ms, error=
+2023/01/27 09:44:48 [error] :  code=403, message=Forbidden
+2023-01-27T09:44:48.681893755+07:00 ::1::GET/api/v1/campaigns_users/1, status=403, latency=738.217113ms, error=
+2023/01/27 09:45:10 [error] :  code=403, message=Forbidden
+2023-01-27T09:45:10.96783823+07:00 ::1::GET/api/v1/campaigns_users/1, status=403, latency=520.452808ms, error=
+2023/01/27 09:49:26 [error] :  code=401, message=Unauthorized
+2023-01-27T09:49:26.012891363+07:00 ::1::GET/api/v1/campaigns_users/1, status=401, latency=494.169593ms, error=
+2023/01/27 09:49:29 [error] :  code=401, message=Unauthorized
+2023-01-27T09:49:29.877934988+07:00 ::1::GET/api/v1/campaigns_users/1, status=401, latency=56.675505ms, error=
+2023/01/27 09:51:13 [error] :  user id not match%!(EXTRA string=U045c7fe1bfc02a3479449b09e6dd8b6b, string=UKRWcKIFG2AsN04hRFsz3KDOT3uj6eh8gXigcCzBAn3FZMr_pqtEUy1J3JYsSql_qncvbBkOkJKxSfLyQ3cAzEcURvOcCeVYi7tO_)
+2023-01-27T09:51:13.007979887+07:00 ::1::GET/api/v1/campaigns_users/1, status=500, latency=419.798913ms, error=
+2023/01/27 09:51:43 [error] :  user id not match U045c7fe1bfc02a3479449b09e6dd8b6b UKRWcKIFG2AsN04hRFsz3KDOT3uj6eh8gXigcCzBAn3FZMr_pqtEUy1J3JYsSql_qncvbBkOkJKxSfLyQ3cAzEcURvOcCeVYi7tO_
+2023-01-27T09:51:43.112952086+07:00 ::1::GET/api/v1/campaigns_users/1, status=500, latency=620.452736ms, error=
+2023/01/27 09:51:54 [error] :  user id not match U045c7fe1bfc02a3479449b09e6dd8b6b UKRWcKIFG2AsN04hRFsz3KDOT3uj6eh8gXigcCzBAn3FZMr_pqtEUy1J3JYsSql_qncvbBkOkJKxSfLyQ3cAzEcURvOcCeVYi7tO_
+2023/01/27 09:52:45 [error] :  user id not match U045c7fe1bfc02a3479449b09e6dd8b6b UKRWcKIFG2AsN04hRFsz3KDOT3uj6eh8gXigcCzBAn3FZMr_pqtEUy1J3JYsSql_qncvbBkOkJKxSfLyQ3cAzEcURvOcCeVYi7tO_
+2023-01-27T09:52:45.876482314+07:00 ::1::GET/api/v1/campaigns_users/1, status=500, latency=779.830339ms, error=
+2023/01/27 09:53:22 [error] :  user id not match U045c7fe1bfc02a3479449b09e6dd8b6b UKRWcKIFG2AsN04hRFsz3KDOT3uj6eh8gXigcCzBAn3FZMr_pqtEUy1J3JYsSql_qncvbBkOkJKxSfLyQ3cAzEcURvOcCeVYi7tO_
+2023-01-27T09:53:22.040476329+07:00 ::1::GET/api/v1/campaigns_users/1, status=500, latency=542.558107ms, error=
+2023-01-27T09:53:50.505622356+07:00 ::1::GET/api/v1/campaigns_users/1, status=500, latency=503.446275ms, error=
+2023/01/27 09:54:11 [error] :  user id not match U045c7fe1bfc02a3479449b09e6dd8b6b UKRWcKIFG2AsN04hRFsz3KDOT3uj6eh8gXigcCzBAn3FZMr_pqtEUy1J3JYsSql_qncvbBkOkJKxSfLyQ3cAzEcURvOcCeVYi7tO_
+2023-01-27T09:54:11.391322052+07:00 ::1::GET/api/v1/campaigns_users/1, status=500, latency=447.411286ms, error=
+2023-01-27T09:54:43.710350828+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=983.819643ms, error=
+2023-01-27T09:54:48.608195687+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=308.063217ms, error=
+2023-01-27T09:54:51.62389625+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=337.571355ms, error=
+2023-01-27T09:55:11.065309098+07:00 ::1::PUT/api/v1/me/1/role, status=200, latency=168.422308ms, error=
+2023/01/27 09:55:13 [error] :  code=403, message=Forbidden
+2023-01-27T09:55:13.791362062+07:00 ::1::GET/api/v1/campaigns, status=403, latency=56.665282ms, error=
+2023/01/27 09:55:31 [error] :  code=403, message=Forbidden
+2023-01-27T09:55:31.283169347+07:00 ::1::GET/api/v1/campaigns, status=403, latency=412.5236ms, error=
+2023-01-27T09:55:36.861478727+07:00 ::1::GET/api/v1/me/info, status=200, latency=23.497742ms, error=
+2023-01-27T09:55:53.166739187+07:00 ::1::PUT/api/v1/me/info, status=200, latency=32.757874ms, error=
+2023-01-27T09:56:00.464917451+07:00 ::1::POST/api/v1/user/login, status=200, latency=157.454942ms, error=
+2023-01-27T09:56:09.689098719+07:00 ::1::GET/api/v1/me/info, status=200, latency=428.259983ms, error=
+2023-01-27T09:56:47.05403095+07:00 ::1::GET/api/v1/me/info, status=200, latency=411.747462ms, error=
+2023-01-27T09:56:58.299355018+07:00 ::1::PUT/api/v1/me/info, status=200, latency=41.271245ms, error=
+2023-01-27T09:57:04.678501084+07:00 ::1::GET/api/v1/me/info, status=200, latency=93.409573ms, error=
+2023/01/27 09:57:11 [error] :  code=403, message=Forbidden
+2023-01-27T09:57:11.300355825+07:00 ::1::GET/api/v1/campaigns, status=403, latency=10.34031ms, error=
+2023-01-27T09:57:18.117346232+07:00 ::1::PUT/api/v1/me/1/role, status=200, latency=113.38808ms, error=
+2023-01-27T09:57:23.385220464+07:00 ::1::GET/api/v1/campaigns, status=200, latency=81.875372ms, error=
+2023-01-27T09:57:35.074325271+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=13.711684ms, error=
+2023-01-27T09:57:40.48190961+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=12.319635ms, error=
+2023-01-27T09:58:47.792829925+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=284.18068ms, error=
+2023-01-27T09:58:49.670752932+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=15.925264ms, error=
+2023-01-27T09:58:50.173921682+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=12.614953ms, error=
+2023-01-27T09:59:02.725151922+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=640.780736ms, error=
+2023-01-27T09:59:10.672430116+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=395.462294ms, error=
+2023-01-27T09:59:23.587256163+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=615.847556ms, error=
+2023-01-27T09:59:58.002955469+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=288.609973ms, error=
+2023-01-27T10:00:00.130673942+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=13.769127ms, error=
+2023-01-27T10:01:37.734101403+07:00 ::1::GET/api/v1/campaigns/1, status=200, latency=15.935097ms, error=
+2023-01-27T10:02:12.055245934+07:00 ::1::GET/api/v1/campaigns, status=200, latency=21.931533ms, error=
+2023-01-27T10:03:42.303747581+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=293.259073ms, error=
+2023-01-27T10:07:44.212171227+07:00 ::1::GET/api/v1/campaigns_users/1, status=200, latency=583.566358ms, error=
+2023/01/27 10:30:51 [error] :  code=403, message=Forbidden
+2023-01-27T10:30:51.911669467+07:00 127.0.0.1::GET/, status=403, latency=62.413µs, error=
+2023-01-27T10:31:01.849610319+07:00 127.0.0.1::GET/docs, status=200, latency=2.203031ms, error=
+2023-01-27T10:31:09.418706845+07:00 127.0.0.1::GET/rate-limited, status=200, latency=389.438µs, error=
+2023/01/27 03:48:15 [error] :  code=403, message=Forbidden
+2023-01-27T03:48:15.424559167Z 172.29.0.1::GET/, status=403, latency=349.113µs, error=
+2023/01/27 03:48:21 [error] :  code=403, message=Forbidden
+2023-01-27T03:48:21.918801348Z 172.29.0.1::GET/, status=403, latency=790.111µs, error=
+2023/01/27 03:54:18 [error] :  code=403, message=Forbidden
+2023-01-27T03:54:18.187365075Z 192.168.0.1::GET/, status=403, latency=259.961µs, error=
+2023/01/27 03:54:21 [error] :  code=403, message=Forbidden
+2023-01-27T03:54:21.784436211Z 192.168.0.1::GET/, status=403, latency=473.161µs, error=
+2023/01/27 03:54:22 [error] :  code=403, message=Forbidden
+2023-01-27T03:54:22.408350182Z 192.168.0.1::GET/, status=403, latency=378.474µs, error=
+2023/01/27 03:54:22 [error] :  code=403, message=Forbidden
+2023-01-27T03:54:22.952262034Z 192.168.0.1::GET/, status=403, latency=378.99µs, error=
+2023/01/27 03:54:23 [error] :  code=403, message=Forbidden
+2023-01-27T03:54:23.72769473Z 192.168.0.1::GET/, status=403, latency=477.819µs, error=
+2023/01/27 04:02:26 [error] :  code=403, message=Forbidden
+2023-01-27T04:02:26.084722353Z 192.168.16.1::GET/, status=403, latency=444.219µs, error=
+2023-01-27T04:02:28.712708847Z 192.168.16.1::GET/docs, status=200, latency=1.045733ms, error=
+2023-01-27T04:02:37.644771087Z 192.168.16.1::POST/api/v1/users, status=201, latency=68.731361ms, error=
+2023-01-27T04:03:07.553184592Z 192.168.16.1::POST/api/v1/user/login, status=200, latency=64.445481ms, error=
+2023/01/27 04:03:11 [error] :  IP [192.168.16.1] try login >> 12342 & invalid username or email
+2023-01-27T04:03:11.917020134Z 192.168.16.1::POST/api/v1/user/login, status=401, latency=1.072516ms, error=
+2023/01/27 04:03:13 [error] :  IP [192.168.16.1] try login >> 12342 & invalid username or email
+2023-01-27T04:03:13.134204097Z 192.168.16.1::POST/api/v1/user/login, status=401, latency=1.057946ms, error=
+2023/01/27 04:03:13 [error] :  IP [192.168.16.1] try login >> 12342 & invalid username or email
+2023-01-27T04:03:13.314007074Z 192.168.16.1::POST/api/v1/user/login, status=401, latency=945.545µs, error=
+2023/01/27 04:07:13 [error] :  code=403, message=Forbidden
+2023-01-27T04:07:13.561304482Z 192.168.32.1::GET/, status=403, latency=293.896µs, error=
+2023-01-27T11:15:57.585767677+07:00 127.0.0.1::GET/docs, status=200, latency=3.683619ms, error=
+2023/01/27 11:16:07 [error] :  ERROR: duplicate key value violates unique constraint "idx_users_username" (SQLSTATE 23505)
+2023-01-27T11:16:07.621896694+07:00 127.0.0.1::POST/api/v1/users, status=409, latency=97.734312ms, error=
+2023-01-27T11:16:16.425579015+07:00 127.0.0.1::POST/api/v1/user/login, status=200, latency=87.923105ms, error=
+2023-01-27T11:16:26.685479201+07:00 127.0.0.1::GET/api/v1/me/info, status=500, latency=278.439µs, error=
+2023-01-27T11:29:32.724150345+07:00 127.0.0.1::POST/api/v1/user/login, status=200, latency=85.196704ms, error=
+2023/01/27 11:29:40 [error] :  code=403, message=Forbidden
+2023-01-27T11:29:40.870883493+07:00 127.0.0.1::GET/api/v1/me/info, status=403, latency=95.867µs, error=
+2023/01/27 11:29:57 [error] :  code=403, message=Forbidden
+2023-01-27T11:29:57.690474436+07:00 127.0.0.1::GET/api/v1/me/info, status=403, latency=106.689µs, error=
+2023/01/27 11:30:12 [error] :  code=403, message=Forbidden
+2023-01-27T11:30:12.472078987+07:00 127.0.0.1::GET/api/v1/me/info, status=403, latency=104.805µs, error=
+2023/01/27 11:30:42 [error] :  code=403, message=Forbidden
+2023-01-27T11:30:42.661841794+07:00 127.0.0.1::GET/api/v1/me/info, status=403, latency=184.217µs, error=
+2023/01/27 11:31:02 [error] :  code=403, message=Forbidden
+2023-01-27T11:31:02.312446671+07:00 127.0.0.1::GET/api/v1/me/info, status=403, latency=203.167µs, error=
+2023/01/27 11:31:03 [error] :  code=403, message=Forbidden
+2023-01-27T11:31:03.970631778+07:00 127.0.0.1::GET/api/v1/me/info, status=403, latency=312.061µs, error=
+2023/01/27 11:31:24 [error] :  code=403, message=Forbidden
+2023-01-27T11:31:24.40183904+07:00 127.0.0.1::GET/api/v1/me/info, status=403, latency=315.493µs, error=
+2023-01-27T11:34:25.593638975+07:00 127.0.0.1::GET/api/v1/me/info, status=200, latency=3.888847ms, error=
