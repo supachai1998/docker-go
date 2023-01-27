@@ -1,0 +1,43 @@
+# # ingress expose port 80 to outside world (load balancer)
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: docker-test-api-ingress
+  namespace: docker-test
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - host: docker-test-api-test.ghb.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: docker-test-api-service
+            port:
+              number: 80
+---
+# --- # expose port 9000 ghb to outside world
+apiVersion: v1
+kind: Service
+metadata:
+  name: docker-test-api-service
+  namespace: docker-test
+  labels:
+    app: docker-test-api
+spec:
+  type: LoadBalancer
+  externalTrafficPolicy: Local
+  ports:
+  - port: 9000 # expose port
+    targetPort: 8080 # app use internal port
+    protocol: TCP
+    name: http
+  selector: #should be same as deployment (matchLabels)
+    app: docker-test-api
+
+
+---

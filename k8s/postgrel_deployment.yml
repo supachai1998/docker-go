@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: docker-test-postgrelsql-deployment
+  namespace: docker-test
+  labels:
+    app: docker-test-postgrelsql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: docker-test-postgrelsql
+  template: #pods
+    metadata:
+      name: docker-test-postgrelsql-pod
+      labels:
+        app: docker-test-postgrelsql
+    spec:
+      containers:
+      - name: docker-test-postgrelsql
+        # image: registry.digitalocean.com/ghb/postgres
+        # imagePullPolicy: IfNotPresent
+        image: supachai19998/postgres:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 5432
+        env:
+        - name: POSTGRES_USER
+          value: postgres
+        - name: POSTGRES_PASSWORD
+          value: postgres
+        - name: POSTGRES_DB
+          value: docker-test
+        - name: POSTGRES_HOST
+          value: postgresql
+        - name: POSTGRES_PORT
+          value: "5432"
+--- # Service
+apiVersion: v1
+kind: Service
+metadata:
+  name: docker-test-postgrelsql-service # using ip to connect to this service (database)
+  namespace: docker-test
+  labels:
+    app: docker-test-postgrelsql
+spec:
+  type: ClusterIP
+  ports:
+  - port: 5432 # internal port
+    targetPort: 5432 # app use internal port
+  selector: #should be same as deployment (matchLabels)
+    app: docker-test-postgrelsql

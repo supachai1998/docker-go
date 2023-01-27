@@ -1,0 +1,49 @@
+# Redis 
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: docker-test-redis-deployment
+  namespace: docker-test
+  labels:
+    app: docker-test-redis
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: docker-test-redis
+  template: #pods
+    metadata:
+      name: docker-test-redis-pod
+      labels:
+        app: docker-test-redis
+    spec:
+      containers:
+      - name: docker-test-redis
+        image: redis:alpine
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 6379
+        env:
+        - name: REDIS_PASSWORD
+          value: "0000000000asdaasdasasdasas"
+        - name: REDIS_HOST
+          value: docker-test-redis-service
+        - name: REDIS_PORT
+          value: "6379"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: docker-test-redis-service
+  namespace: docker-test
+  labels:
+    app: docker-test-redis
+spec:
+  type: ClusterIP
+  ports:
+  - port: 6379 # expose port
+    targetPort: 6379 # app use internal port
+    protocol: TCP
+    name: http
+  selector: #should be same as deployment (matchLabels)
+    app: docker-test-redis

@@ -1,0 +1,7 @@
+# init namespace is ghb
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: docker-test # name คือชื่อของ namespace
+  labels:
+    name: docker-test  # label ทุกๆ kind อื่นๆ ต้องตรงกับ label ของ namespace ทั้งโปรเจค **

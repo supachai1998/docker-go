@@ -1,0 +1,61 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: docker-test-api-deployment
+  namespace: docker-test
+  labels:
+    app: docker-test-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: docker-test-api
+  template: #pods
+    metadata:
+      name: docker-test-api-pod
+      labels:
+        app: docker-test-api
+    spec:
+      containers:
+      - name: docker-test
+        # image: registry.digitalocean.com/ghb/docker-test
+        # imagePullPolicy: IfNotPresent
+        image: supachai19998/docker-test:v1
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8080
+        env:
+        - name: DB_HOST
+          value: docker-test-postgrelsql-service
+        - name: DB_PORT
+          value: "5432"
+        - name: DB_USER
+          value: postgres
+        - name: DB_PASSWORD
+          value: postgres
+        - name: DB_NAME
+          value: docker-test
+        - name: SERVER_PORT
+          value: "8080"
+        - name: JWT_SECRET
+          value: "0000000000asdaasdasasdasas"
+        - name: APP_ENV
+          value: "DEVELOPMENT" # PRODUCTION or DEVELOPMENT
+        - name: LINE_MESSAGING_API
+          value: "https://api.line.me/v2/bot"
+        - name: LIFF_ID
+          value: "1657795032-n0zZoGB0"
+        - name: CHANNEL_SECRET
+          value: "1f585cab64feaf4da5b2bbf67fb32c5a"
+        - name: CHANNAL_ACCESS_TOKEN
+          value: "MZjoLrUNUV/lUFQcLh3UWiGGtJEFKKdK+8iN9SZ735DyWfeamNwrAidkjzbACBBuwicq+wF7uB7HQ7PVpE9tOleLHhjY7FUC/YgeiipykB9pvro7ghVDuvAb+QzkNvWM8kM7FUlql9yxtLY9oFJd2wdB04t89/1O/w1cDnyilFU="
+        - name: CLIENT_ID
+          value: "1657795032" 
+        # redis
+        - name: REDIS_HOST
+          value: docker-test-redis-service
+        - name: REDIS_PORT
+          value: "6379"
+        - name: REDIS_PASSWORD
+          value: "0000000000asdaasdasasdasasABCDEFG"
